@@ -1,0 +1,22 @@
+.column {
+  float: left;
+  width: 27%;
+  margin-right: 6%
+}
+
+img {
+  width: 280px;
+
+
+}
+
+.main {
+float: left;
+
+}
+
+.column p {
+font-family:sans-serif;
+color: #1E90FF;
+
+}
