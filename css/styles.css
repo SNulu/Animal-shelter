@@ -1,3 +1,9 @@
+body {
+  font-size: 1.2rem;
+}
+
+
+
 .column {
   float: left;
   width: 27%;
@@ -5,9 +11,8 @@
 }
 
 img {
-  width: 280px;
-
-
+  max-width: 100%;
+  height: auto;
 }
 
 .main {
@@ -18,5 +23,27 @@ float: left;
 .column p {
 font-family:sans-serif;
 color: #1E90FF;
+font-size: 1rem;
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .column {
+    width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+
+  .column {
+    float: left;
+    width: 45%;
+    margin-right: 5%
+  }
+
+
 
 }
